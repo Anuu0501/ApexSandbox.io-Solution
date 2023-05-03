@@ -1,0 +1,12 @@
+public String aOrAn(String word) {
+    //code here
+    LIST<String> vow=new List<String>{'a','e','i','o','u'};
+   for(String v:vow){
+        if(word.startsWithIgnoreCase(v)){
+           return 'an '+word;
+          }
+          
+   }
+    return 'a '+word;
+         
+}
