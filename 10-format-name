@@ -2,7 +2,7 @@ public String formatName(String firstName, String lastName) {
     //code here
     string fullname;
     if(firstName==NULL){
-        return lastName+',';
+        return lastName;
     }
     else if(lastName==NULL){
         return firstName;
