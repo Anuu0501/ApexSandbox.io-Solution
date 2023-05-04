@@ -6,6 +6,8 @@ public Integer fibonacci(Integer n) {
             return 1;
         }
         sum=fnum+snum;
+        fnum=snum;
+        snum=sum;
 
     }return sum;
 }
