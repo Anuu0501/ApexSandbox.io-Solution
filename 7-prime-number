@@ -1,0 +1,10 @@
+public Boolean isPrime(Integer num) {
+    //code here
+    Integer i=1;
+    Integer n=num/2;
+    for(Integer i:n){
+        if(Math.mod(n,i)){
+            return true;
+        }
+    }return false;
+}
