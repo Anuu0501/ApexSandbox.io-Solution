@@ -1,6 +1,6 @@
 public String formatName(String firstName, String lastName) {
     //code here
-    strin fullname;
+    string fullname;
     if(firstName!=NULL){
         return firstName;
     }
