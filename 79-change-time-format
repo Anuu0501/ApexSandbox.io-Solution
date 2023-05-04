@@ -8,9 +8,9 @@ public String changeTimeFormat(String strTime) {
         actualTime=hour-12;
         String.valueOf(actualTime);
         if(actualTime==11 || actualTime==12){
-            return '0'+actualTime+':'+min+' PM';
+            return actualTime+':'+min+' PM';
         }
-        return actualTime+':'+min+' PM';
+        return '0'+actualTime+':'+min+' PM';
     }
     else if(hour==12){
         return '12'+':'+min+' PM';
