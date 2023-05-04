@@ -7,7 +7,10 @@ public String changeTimeFormat(String strTime) {
     if(hour>12){
         actualTime=hour-12;
         String.valueOf(actualTime);
-        return '0'+actualTime+':'+min+' PM';
+        if(actualTime==11 || actualTime==12){
+            return '0'+actualTime+':'+min+' PM';
+        }
+        return actualTime+':'+min+' PM';
     }
     else if(hour==12){
         return '12'+':'+min+' PM';
