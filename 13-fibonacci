@@ -1,0 +1,11 @@
+public Integer fibonacci(Integer n) {
+    //code here
+    Integer sum=0,fnum=0,snum=1;
+    for(Integer i=1;i<=n;i++){
+        if(n==1 || n==2){
+            return 1;
+        }
+        sum=fnum+snum;
+
+    }return sum;
+}
