@@ -1,7 +1,7 @@
 public Integer diff(Integer a, Integer b) {
     //code here
     //Integer c=Math.abs(a,b);
-    Integer c=0;
+    Integer c=a-b;
     
     // if(a>b){
     //     c=a-b;
@@ -9,5 +9,5 @@ public Integer diff(Integer a, Integer b) {
     // else{
     //     c=b-a;
     // }
-    return Math.abs(a,b);
+    return Math.abs(c);
 }
