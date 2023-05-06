@@ -9,5 +9,5 @@ public Integer diff(Integer a, Integer b) {
     // else{
     //     c=b-a;
     // }
-    return Math.abs(a,b);;
+    return Math.abs(a,b);
 }
